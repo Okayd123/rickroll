@@ -1,0 +1,1 @@
+A simple Slack bot made as part of the one day TechStar Intern Hackathon (5/12/22)
