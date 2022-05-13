@@ -118,7 +118,7 @@ app.message(/pun/, async ({ message, say }) => {
                 console.error(error);
             }}    )
     } else {
-        //9 puns total
+        //10 puns total
         const puns = ["My sister once dated a guy with a wooden leg, but they broke it off.",
         "I kept trying to tell my friend that our Egypt trip was ruined by all that flooding, but she still insists that I was just in de-Nile.", 
         "An optimist will tell you that the average person is kind, but a mathematician knows the average person is quite mean.",
@@ -127,8 +127,9 @@ app.message(/pun/, async ({ message, say }) => {
         "Best present I ever got was a broken drum set. Honestly, I don't know how I can beat that.",
         "I swear my uncle is the worst conductor ever. I asked him how many trains he has derailed, but he says it's hard to keep track.",
         "You know what? I think I\'m going to remove my spine. It's only holding me back!",
-        "A veterinarian gently placed a rabbi up on the table. Then, petting him softly, the Vet announced \"We're just going to draw some blood to determine his blood type.\" To which the rabbi replied: \"I'm probably a Type O\""];
-        let punType = Math.floor(Math.random()*9);
+        "A veterinarian gently placed a rabbi up on the table. Then, petting him softly, the Vet announced \"We're just going to draw some blood to determine his blood type.\" To which the rabbi replied: \"I'm probably a Type O\"",
+        "Axolotls are apparently the most inquisitive amphibians! They axolotl questions."];
+        let punType = Math.floor(Math.random()*10);
         say( 
             {
                 "channel": "ABCDEBF1",
